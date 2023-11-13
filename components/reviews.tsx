@@ -49,7 +49,7 @@ export const Reviews = () => {
             <CardBody className="">
               <p>
                 Absolutely love this coffee shop! The atmosphere is cozy, and
-                the coffee is top-notch. I'm a regular here, and the staff
+                the coffee is top-notch. I am a regular here, and the staff
                 always makes me feel welcome.
               </p>
             </CardBody>

@@ -54,7 +54,7 @@ export const Hero = () => {
           </motion.h1>
 
           <motion.p variants={textVariants} initial="initial" animate="animate" className="font-thin leading-7 tracking-wide">
-          Discover the rich symphony of flavors in every cup, <br className="sm:visible hidden"/> meticulously curated to elevate your coffee journey. <br className="sm:visible hidden"/>Whether you're a connoisseur or a casual enthusiast, <br className="sm:visible hidden"/> our artisanal blends and cozy ambiance invite you <br className="sm:visible hidden"/> to savor the moment.
+          Discover the rich symphony of flavors in every cup, <br className="sm:visible hidden"/> meticulously curated to elevate your coffee journey. <br className="sm:visible hidden"/>Whether you are a connoisseur or a casual enthusiast, <br className="sm:visible hidden"/> our artisanal blends and cozy ambiance invite you <br className="sm:visible hidden"/> to savor the moment.
           </motion.p>
         </motion.div>
 
