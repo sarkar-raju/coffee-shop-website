@@ -14,7 +14,7 @@ import {
 export const Reviews = () => {
   return (
     <>
-      <motion.div className="ml-8"
+      <motion.div className="sm:ml-8"
       initial={{ y: 1000 }}
       animate={{ y: 0 }}
       transition={{ ease: "easeIn", duration: 0.5 }}
