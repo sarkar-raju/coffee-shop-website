@@ -26,7 +26,7 @@ export const Reviews = () => {
       </motion.div>
       <div className="mt-8">
         <motion.div
-          className="ml-8 sm:flex gap-3"
+          className="sm:ml-8 sm:flex gap-3 "
           initial={{ y: 1000 }}
           animate={{ y: 0 }}
           transition={{ ease: "easeIn", duration: 0.5, }}
