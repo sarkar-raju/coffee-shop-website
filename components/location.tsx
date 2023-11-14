@@ -24,7 +24,7 @@ const Location = () => {
             <div className="sm:w-[100px] w-[35px] h-2 bg-red-500 sm:mt-4 mt-0 rounded-full"></div>
 
             <p className="sm:mt-10 mt-2">
-            Nestled in the heart of [Your City], [Your Coffee Shop Name] <br className="sm:visible max-[450px]:hidden" /> welcomes you to our cozy corner of coffee bliss. Our prime <br className="sm:visible max-[450px]:hidden" /> location is designed to be your urban escape, where the aroma <br className="sm:visible max-[450px]:hidden" /> of freshly brewed coffee and the warmth <br className="sm:visible max-[450px]:hidden" /> of our welcoming space invite you to unwind and savor the moment.
+            Nestled in the heart of Kolkata, Brew Haven <br className="sm:visible max-[450px]:hidden" /> welcomes you to our cozy corner of coffee bliss. Our prime <br className="sm:visible max-[450px]:hidden" /> location is designed to be your urban escape, where the aroma <br className="sm:visible max-[450px]:hidden" /> of freshly brewed coffee and the warmth <br className="sm:visible max-[450px]:hidden" /> of our welcoming space invite you to unwind and savor the moment.
             </p>
           </div>
           <div className="btnDiv mt-6">
