@@ -54,7 +54,7 @@ export const Hero = () => {
           </motion.h1>
 
           <motion.p variants={textVariants} initial="initial" animate="animate" className="font-thin leading-7 tracking-wide">
-          Discover the rich symphony of flavors in every cup, <br className="sm:visible hidden"/> meticulously curated to elevate your coffee journey. <br className="sm:visible hidden"/>Whether you are a connoisseur or a casual enthusiast, <br className="sm:visible hidden"/> our artisanal blends and cozy ambiance invite you <br className="sm:visible hidden"/> to savor the moment.
+          Discover the rich symphony of flavors in every cup, <br className="sm:visible max-[450px]:hidden"/> meticulously curated to elevate your coffee journey. <br className="sm:visible max-[450px]:hidden"/>Whether you are a connoisseur or a casual enthusiast, <br className="sm:visible max-[450px]:hidden"/> our artisanal blends and cozy ambiance invite you <br className="sm:visible max-[450px]:hidden"/> to savor the moment.
           </motion.p>
         </motion.div>
 
@@ -76,7 +76,7 @@ export const Hero = () => {
         animate={{ x: 0 }}
         transition={{ ease: "easeIn", duration: 0.5 }}
       >
-        <Button className="bg-red-500 text-white rounded-full" variant="flat">Order Online</Button>
+        <Button className="bg-red-500 text-white rounded-full" variant="flat">Order Online &#8594;</Button>
       </motion.div>
 
       <motion.div
@@ -85,7 +85,7 @@ export const Hero = () => {
         animate={{ x: 0 }}
         transition={{ ease: "easeIn", duration: 0.5 }}
       >
-        <Button className="bg-blue-600 text-white rounded-full">Explore Menu</Button>
+        <Button className="bg-blue-600 text-white rounded-full">Explore Menu &#8594;</Button>
       </motion.div>
     </div>
     </>

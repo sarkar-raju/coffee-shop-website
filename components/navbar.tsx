@@ -36,7 +36,7 @@ const Navbar = () => {
           >
             About
           </Link>
-          <Link className="hover:bg-gray-300 rounded-full px-3 py-1" href="#">
+          <Link className="hover:bg-gray-300 rounded-full px-3 py-1" href="/menu">
             Contact
           </Link>
           <Link className="hover:bg-gray-300 rounded-full px-3 py-1" href="#">

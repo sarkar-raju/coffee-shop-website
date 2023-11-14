@@ -24,9 +24,9 @@ export const Reviews = () => {
         </h2>
         <div className="sm:w-[300px] sm:h-[15px] w-[150px] h-[10px] bg-red-400 text-center rounded-full"></div>
       </motion.div>
-      <div className="mt-8">
+      <div className="mt-8 ml-2 sm:ml-0">
         <motion.div
-          className="sm:ml-8 sm:flex gap-3 "
+          className="sm:ml-8 sm:flex gap-3"
           initial={{ y: 1000 }}
           animate={{ y: 0 }}
           transition={{ ease: "easeIn", duration: 0.5, }}
