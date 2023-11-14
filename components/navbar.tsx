@@ -27,22 +27,22 @@ const Navbar = () => {
         </div>
 
         <div className=" gap-6 sm:flex hidden items-center">
-          <Link className="hover:bg-gray-300 rounded-full px-3 py-1" href="#">
+          <Link className="hover:bg-gray-300 rounded-full px-3 py-1" href="/">
             Home
           </Link>
           <Link
             className="hover:bg-gray-300 rounded-full px-3 py-1"
-            href="/about"
+            href="/"
           >
             About
           </Link>
-          <Link className="hover:bg-gray-300 rounded-full px-3 py-1" href="/menu">
+          <Link className="hover:bg-gray-300 rounded-full px-3 py-1" href="/">
             Contact
           </Link>
-          <Link className="hover:bg-gray-300 rounded-full px-3 py-1" href="#">
+          <Link className="hover:bg-gray-300 rounded-full px-3 py-1" href="">
             Services
           </Link>
-          <Link className="mt-[8px]" href="#">
+          <Link className="mt-[8px]" href="/">
             <div>
               <ThemeSwitch />
             </div>
