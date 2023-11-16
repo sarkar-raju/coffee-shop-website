@@ -2,6 +2,8 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { Button } from "@nextui-org/button";
+import Link from "next/link";
+
 
 // creating animation with framer motion
 const textVariants = {
@@ -85,7 +87,10 @@ export const Hero = () => {
         animate={{ x: 0 }}
         transition={{ ease: "easeIn", duration: 0.5 }}
       >
-        <Button className="bg-blue-600 text-white rounded-full">Explore Menu &#8594;</Button>
+        <Link href = "/menu">
+          <Button className="bg-blue-600 text-white rounded-full">Explore Menu &#8594;</Button>
+        </Link>
+        
       </motion.div>
     </div>
     </>

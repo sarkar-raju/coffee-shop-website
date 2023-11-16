@@ -1,5 +1,4 @@
 "use client";
-
 import React from "react";
 import Link from "next/link";
 import {
@@ -9,9 +8,7 @@ import {
   DropdownItem,
   Button,
 } from "@nextui-org/react";
-
 import { ThemeSwitch } from "@/components/theme-switch";
-
 
 const ToggleMenu = () => {
   return (
@@ -30,27 +27,29 @@ const ToggleMenu = () => {
             <li className="text-xl">Home</li>
           </Link>
         </DropdownItem>
+
         <DropdownItem className="text-center block">
           <Link href="/about">
             <li className="text-xl">About</li>
           </Link>
         </DropdownItem>
+
         <DropdownItem className="text-center block">
           <Link href="/blog">
             <li className="text-xl">Contact</li>
           </Link>
         </DropdownItem>
+
         <DropdownItem className="text-center block">
           <Link href="/pricing">
             <li className="text-xl">Services</li>
           </Link>
-        </DropdownItem> 
+        </DropdownItem>
+
         <DropdownItem className="text-center block">
           <Link href="#">
             <li className="text-xl">
-            
-          <ThemeSwitch />
-       
+              <ThemeSwitch />
             </li>
           </Link>
         </DropdownItem>

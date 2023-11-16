@@ -27,6 +27,7 @@ const Beans = () => {
               A <span className="text-blue-600">Taste</span> of
               <span className="text-red-400"> Excellence</span>
             </h1>
+
             <div className="sm:w-[250px] w-[100px] h-2 bg-red-500 sm:mt-4 mt-1 rounded-full"></div>
 
             <p className="mt-10">
@@ -39,11 +40,13 @@ const Beans = () => {
               unparalleled coffee bliss.
             </p>
           </div>
+
           <div className="btnDiv mt-6">
-            <Link href="/menu"><button
-            className="bg-red-500 text-white rounded-full py-2 px-4 hover:bg-red-600 active:bg-gray-200 transition-all"
-            
-            >Explore Menue &#8594;</button></Link>
+            <Link href="/menu">
+              <button className="bg-red-500 text-white rounded-full py-2 px-4 hover:bg-red-600 active:bg-gray-200 transition-all">
+                Explore Menue &#8594;
+              </button>
+            </Link>
           </div>
         </div>
       </div>
