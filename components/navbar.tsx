@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="lg:ml-[-1200px] ml-[-90px]">
            <Button className="rounded-full bg-orange-950 text-yellow-400 font-bold">
            <Link href = "/menu">
-            Order It
+            Explore Menu
             </Link>
           </Button>
           
@@ -32,19 +32,19 @@ const Navbar = () => {
         </div>
 
         <div className=" gap-6 sm:flex hidden items-center">
-          <Link className="hover:bg-gray-300 rounded-full px-3 py-1" href="/">
+          <Link className="hover:bg-blue-600 hover:text-white hover:font-bold rounded-full px-3 py-1 transition ease-in-out delay-50"  href="/">
             Home
           </Link>
 
-          <Link className="hover:bg-gray-300 rounded-full px-3 py-1" href="/menu">
+          <Link className="hover:bg-blue-600 hover:text-white hover:font-bold rounded-full px-3 py-1 transition ease-in-out delay-50" href="/menu">
             Menu
           </Link>
 
-          <Link className="hover:bg-gray-300 rounded-full px-3 py-1" href="/ourstory">
+          <Link className="hover:bg-blue-600 hover:text-white hover:font-bold rounded-full px-3 py-1 transition ease-in-out delay-50" href="/ourstory">
           Our Story
           </Link>
 
-          <Link className="hover:bg-gray-300 rounded-full px-3 py-1" href="/contact">
+          <Link className="hover:bg-blue-600 hover:text-white hover:font-bold rounded-full px-3 py-1 transition ease-in-out delay-50" href="/contact">
             Contact
           </Link>
 

@@ -2,7 +2,9 @@ import "@/styles/globals.css";
 import { fontSans } from "@/config/fonts";
 import { Providers } from "./providers";
 import Navbar from "@/components/navbar";
+
 import clsx from "clsx";
+import Footer from "@/components/footer";
 
 export default function RootLayout({
 	children,
@@ -24,9 +26,7 @@ export default function RootLayout({
 						<main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
 							{children}
 						</main>
-						<footer className="w-full flex items-center justify-center py-3">
-							<p className="font-bold">&#169; <span>2023</span> <span className="text-blue-600">Brew Haven</span></p>
-						</footer>
+						<Footer />
 					</div>
 				</Providers>
 			</body>
