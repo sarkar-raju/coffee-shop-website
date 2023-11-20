@@ -15,8 +15,8 @@ export default function ContactPage() {
           <Image src="/contact.png" width={600} height={600} alt="img" />
         </div>
       </div>
-      <div className="flex gap-3 justify-center items-center mt-14">
-        <div className="w-[220px] h-[120px] bg-red-100 text-center rounded-lg shadow-md hover:shadow-2xl cursor-pointer transition ease-in-out delay-150 ">
+      <div className="sm:flex gap-3 sm:justify-center sm:items-center mt-14">
+        <div className="sm:w-[220px] w-[360px] h-[120px] bg-red-100 text-center rounded-lg shadow-md hover:shadow-2xl cursor-pointer transition ease-in-out delay-150 ">
           <h1 className="text-blue-600 font-bold mt-2">Visit Us :-</h1>
           <div className="ml-4 mt-1 text-left text-red-900">
             <p>Brew Haven</p>
@@ -24,7 +24,7 @@ export default function ContactPage() {
             <p>New York</p>
           </div>
         </div>
-        <div className="w-[220px] h-[120px] bg-red-100 text-center rounded-lg shadow-md hover:shadow-2xl cursor-pointer transition ease-in-out delay-150 ">
+        <div className="sm:w-[220px] w-[360px] h-[120px] bg-red-100 text-center rounded-lg shadow-md hover:shadow-2xl cursor-pointer transition ease-in-out delay-150 ">
           <h1 className="text-blue-600 font-bold mt-2">Contact Information:</h1>
 
           <div className="ml-4 mt-1 text-left text-red-900">
@@ -38,7 +38,7 @@ export default function ContactPage() {
             </p>
           </div>
         </div>
-        <div className="w-[220px] h-[120px] bg-red-100 text-center rounded-lg shadow-md hover:shadow-2xl cursor-pointer transition ease-in-out delay-150 ">
+        <div className="sm:w-[220px] w-[360px] h-[120px] bg-red-100 text-center rounded-lg shadow-md hover:shadow-2xl cursor-pointer transition ease-in-out delay-150 ">
           <h1 className="text-blue-600 font-bold mt-2">Operating Hours:</h1>
           <div className="ml-4 mt-1 text-left text-red-900">
             Monday to Sunday : <br /> 7:00 AM to 10:00 PM

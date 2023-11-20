@@ -31,7 +31,7 @@ export const Reviews = () => {
           animate={{ y: 0 }}
           transition={{ ease: "easeIn", duration: 0.5, }}
         >
-          <Card className="max-w-[350px] h-[200px] mt-5">
+          <Card className="max-w-[350px] h-[200px] mt-5 shadow-md hover:shadow-2xl cursor-pointer transition ease-in-out delay-150">
             <CardHeader className="flex gap-3">
               <Image
                 alt="nextui logo"
@@ -58,7 +58,7 @@ export const Reviews = () => {
 
           {/* 2nd card */}
 
-          <Card className="max-w-[350px] h-[200px] mt-5">
+          <Card className="max-w-[350px] h-[200px] mt-5 shadow-md hover:shadow-2xl cursor-pointer transition ease-in-out delay-150 ">
             <CardHeader className="flex gap-3">
               <Image
                 alt="nextui logo"
@@ -81,7 +81,7 @@ export const Reviews = () => {
             <Divider />
           </Card>
           {/* 3rd Card */}
-          <Card className="max-w-[350px] h-[200px] mt-5">
+          <Card className="max-w-[350px] h-[200px] mt-5 shadow-md hover:shadow-2xl cursor-pointer transition ease-in-out delay-150 ">
             <CardHeader className="flex gap-3">
               <Image
                 alt="nextui logo"
