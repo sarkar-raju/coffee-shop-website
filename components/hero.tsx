@@ -78,18 +78,30 @@ export const Hero = () => {
         animate={{ x: 0 }}
         transition={{ ease: "easeIn", duration: 0.5 }}
       >
-        <Button className="bg-red-500 text-white rounded-full" variant="flat">Order Online &#8594;</Button>
+        <Button className="bg-red-500 text-white rounded-full" variant="flat">
+          <Link href="/ourstory">Learn More &#8594;</Link>
+        </Button>
       </motion.div>
 
       <motion.div
         className="sm:ml-8 "
-        initial={{ x: -1000 }}
-        animate={{ x: 0 }}
-        transition={{ ease: "easeIn", duration: 0.5 }}
+        initial = "hidden"
+        whileInView="visible"
+        viewport={{ once:true}}
+        transition={{duration:0.3}}
+        variants={{
+          visible : {opacity : 1, scale : 1},
+          hidden : { opacity : 0, scale : 1}
+        }}
       >
-        <Link href = "/menu">
-          <Button className="bg-blue-600 text-white rounded-full">Explore Menu &#8594;</Button>
-        </Link>
+    
+          <Button className="bg-blue-600 text-white rounded-full">
+          <Link href = "/menu">
+            
+            Explore Menu &#8594;
+            </Link>
+            </Button>
+       
         
       </motion.div>
     </div>

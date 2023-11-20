@@ -8,7 +8,7 @@ import { NavbarItem } from "@nextui-org/react";
 const Navbar = () => {
   return (
     <>
-      <nav className=" fixed top-0 left-0 right-0 flex justify-between px-14 py-2 items-center  z-10">
+      <nav className=" fixed top-0 left-0 right-0 flex justify-between px-14 py-2 items-center z-10">
         <div className="ml-[-40px]">
           <Link href="/">
             <Image
@@ -22,9 +22,13 @@ const Navbar = () => {
         </div>
 
         <div className="lg:ml-[-1200px] ml-[-90px]">
-          <Button className="rounded-full bg-orange-950 text-yellow-400 font-bold">
+           <Button className="rounded-full bg-orange-950 text-yellow-400 font-bold">
+           <Link href = "/menu">
             Order It
+            </Link>
           </Button>
+          
+          
         </div>
 
         <div className=" gap-6 sm:flex hidden items-center">
@@ -32,16 +36,16 @@ const Navbar = () => {
             Home
           </Link>
 
-          <Link className="hover:bg-gray-300 rounded-full px-3 py-1" href="/about">
-            About
+          <Link className="hover:bg-gray-300 rounded-full px-3 py-1" href="/menu">
+            Menu
+          </Link>
+
+          <Link className="hover:bg-gray-300 rounded-full px-3 py-1" href="/ourstory">
+          Our Story
           </Link>
 
           <Link className="hover:bg-gray-300 rounded-full px-3 py-1" href="/contact">
             Contact
-          </Link>
-
-          <Link className="hover:bg-gray-300 rounded-full px-3 py-1" href="/services">
-            Services
           </Link>
 
           <Link className="mt-[8px]" href="/">

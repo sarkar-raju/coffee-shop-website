@@ -1,14 +1,26 @@
+"use client"
 import Image from "next/image";
 import { Button } from "@nextui-org/react";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const Beans = () => {
   return (
-    <div className="sm:ml-8">
-      <h1 className="sm:text-[80px] text-[25px]">
+    <motion.div
+    
+    className="sm:ml-8">
+      <motion.h1
+     initial = "hidden"
+     whileInView="visible"
+     transition={{duration:0.3}}
+     variants={{
+       visible : {x : 1, scale : 1},
+       hidden : { x : -100, scale : 1}
+     }}
+      className="sm:text-[80px] text-[25px]">
         <span className="text-blue-500 font-bold">Taste That</span>
-        <span className="text-red-400">Matters.</span>
-      </h1>
+        <span className="text-red-400"> Matters.</span>
+      </motion.h1>
 
       <div className="sm:flex justify-between items-center gap-2">
         <div className="imgDiv mt-8">
@@ -23,10 +35,19 @@ const Beans = () => {
 
         <div className="">
           <div className="txtDiv font-thin leading-7 tracking-wide text-[20px]">
-            <h1 className="sm:text-[40px] text-[20px] py-2 mt-4 font-bold">
+            <motion.h1
+            initial = "hidden"
+            whileInView = "visible"
+            transition={{duration : 1}}
+
+          variants={{
+            visible : { opacity : 1, scale : 1},
+            hidden : { opacity : 0, scale : 1}
+          }}
+            className="sm:text-[40px] text-[20px] py-2 mt-4 font-bold">
               A <span className="text-blue-600">Taste</span> of
               <span className="text-red-400"> Excellence</span>
-            </h1>
+            </motion.h1>
 
             <div className="sm:w-[250px] w-[100px] h-2 bg-red-500 sm:mt-4 mt-1 rounded-full"></div>
 
@@ -50,7 +71,7 @@ const Beans = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

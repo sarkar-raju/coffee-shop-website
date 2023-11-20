@@ -1,4 +1,4 @@
-export default function ServicesLayout({
+export default function MenuLayout({
 	children,
 }: {
 	children: React.ReactNode;
