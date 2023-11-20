@@ -4,7 +4,7 @@ export default function OurstoryPage() {
     <div className="mt-8">
       <div className="min-[835px]:flex sm:gap-24">
         <div className="sm:mb-0 mb-8">
-          <h1 className="sm:text-[50px] text-[30px] text-blue-600 font-bold">
+          <h1 className="sm:text-[50px] text-[30px] text-blue-600 font-bold mt-6">
             Story that savor<span className="text-red-500">....</span>
           </h1>
           <div className="sm:w-[144px] w-[75px] h-1 sm:h-2 bg-red-500 rounded-full"></div>
@@ -28,7 +28,7 @@ export default function OurstoryPage() {
           </p>
         </div>
 
-        <div className="sm:mt-[40px] max-[1090px]:mt-[-70px] flex justify-center items-center">
+        <div className="sm:mt-[40px] max-[1090px]:mt-[-70px] flex justify-center items-center max-[640px]:mt-[20px]">
           <Image
             src="/shop.jpg"
             width={600}
@@ -39,13 +39,13 @@ export default function OurstoryPage() {
         </div>
       </div>
       {/* 2nd section */}
-      <div className="mt-10">
+      <div className="mt-[80px]">
         <h1 className="sm:text-[50px] text-[30px] text-blue-600 font-bold">
           Best beans across the world<span className="text-red-500">...</span>
         </h1>
         <div className="sm:w-[100px] w-[80px] h-1 sm:h-2 bg-red-500 rounded-full"></div>
         <div className="min-[835px]:flex sm:gap-24">
-          <div className="sm:mt-[40px] max-[1090px]:mt-[-70px] flex justify-center items-center">
+          <div className="sm:mt-[40px] max-[1090px]:mt-[-70px] flex justify-center items-center max-[640px]:mt-[20px]">
             <Image
               src="/coffe-beans2.jpeg"
               width={600}
@@ -55,9 +55,9 @@ export default function OurstoryPage() {
             />
           </div>
 
-          <p className="font-thin leading-7 tracking-wide mt-4 text-[18px]">
+          <p className="font-thin leading-7 tracking-wide min-[835px]:mt-[120px] mt-[40px] text-[18px]">
             Step through our doors, and you will be
-            <span className="text-blue-600 font-bold">greeted</span> by the rich{" "}
+            <span className="text-blue-600 font-bold"> greeted</span> by the rich{" "}
             <br />
             aroma of freshly roasted coffee beans, carefully selected <br />
             from around the world. Our baristas, true artisans of
@@ -72,13 +72,13 @@ export default function OurstoryPage() {
 
       {/* 3rd section */}
 
-      <div className="mt-10">
+      <div className="mt-[80px]">
         <h1 className="sm:text-[50px] text-[30px] text-blue-600 font-bold">
           Our Place<span className="text-red-500">...</span>
         </h1>
         <div className="sm:w-[100px] w-[80px] h-1 sm:h-2 bg-red-500 rounded-full"></div>
         <div className="min-[835px]:flex sm:gap-24">
-          <p className="font-thin leading-7 tracking-wide mt-4 text-[18px]">
+          <p className="font-thin leading-7 tracking-wide min-[835px]:mt-[120px] mt-[40px] text-[18px]">
             Our cozy and inviting atmosphere is an extension of your living
             <br /> room a place to unwind, connect, and create memories. The
             decor,
@@ -89,7 +89,7 @@ export default function OurstoryPage() {
             savor <br />
             your favorite brew.
           </p>
-          <div className="sm:mt-[40px] max-[1090px]:mt-[-70px] flex justify-center items-center">
+          <div className="sm:mt-[40px] max-[1090px]:mt-[-70px] max-[640px]:mt-[20px] flex justify-center items-center">
             <Image
               src="/coffe-stepin.jpg"
               width={600}

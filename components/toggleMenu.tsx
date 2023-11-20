@@ -29,20 +29,20 @@ const ToggleMenu = () => {
         </DropdownItem>
 
         <DropdownItem className="text-center block">
-          <Link href="/about">
-            <li className="text-xl">About</li>
+          <Link href="/menu">
+            <li className="text-xl">Menu</li>
           </Link>
         </DropdownItem>
 
         <DropdownItem className="text-center block">
-          <Link href="/blog">
+          <Link href="/ourstory">
+            <li className="text-xl">Our Story</li>
+          </Link>
+        </DropdownItem>
+
+        <DropdownItem className="text-center block">
+          <Link href="/contact">
             <li className="text-xl">Contact</li>
-          </Link>
-        </DropdownItem>
-
-        <DropdownItem className="text-center block">
-          <Link href="/pricing">
-            <li className="text-xl">Services</li>
           </Link>
         </DropdownItem>
 
