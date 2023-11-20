@@ -6,6 +6,7 @@ import Link from "next/link";
 
 
 // creating animation with framer motion
+
 const textVariants = {
   initial: {
     y: -500,
