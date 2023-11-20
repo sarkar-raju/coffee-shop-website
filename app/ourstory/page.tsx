@@ -10,7 +10,7 @@ export default function OurstoryPage() {
           <div className="sm:w-[144px] w-[75px] h-1 sm:h-2 bg-red-500 rounded-full"></div>
           <p className="font-thin leading-7 tracking-wide mt-4 text-[18px]">
             Welcome to
-            <span className="text-blue-600 font-bold">"Brew Haven,"</span> a
+            <span className="text-blue-600 font-bold">Brew Haven,</span> a
             haven of warmth and community <br /> nestled in the heart of
             <span className="text-red-500 font-bold"> NYC</span>. Our story
             begins with a simple <br /> yet profound belief that a perfect cup
@@ -19,9 +19,9 @@ export default function OurstoryPage() {
           </p>
 
           <p className="font-thin leading-7 tracking-wide mt-4 text-[18px]">
-            Passionate founder whose vision was to craft more than just a <br />{" "}
+            Passionate founder whose vision was to craft more than just a <br />
             coffee shop but a welcoming space where every sip tells a <br />{" "}
-            story and every customer feels like family. With a commitment <br />{" "}
+            story and every customer feels like family. With a commitment <br />
             to quality and community,
             <span className="text-blue-600 font-bold">Brew Haven</span> was
             born.
@@ -56,15 +56,15 @@ export default function OurstoryPage() {
           </div>
 
           <p className="font-thin leading-7 tracking-wide mt-4 text-[18px]">
-            Step through our doors, and you'll be{" "}
+            Step through our doors, and you will be
             <span className="text-blue-600 font-bold">greeted</span> by the rich{" "}
             <br />
             aroma of freshly roasted coffee beans, carefully selected <br />
             from around the world. Our baristas, true artisans of
             <br /> their craft, are here to guide you on a journey of taste
-            <br /> and discovery. Whether you're a seasoned coffee <br />
+            <br /> and discovery. Whether you are a seasoned coffee <br />
             connoisseur or just starting your coffee adventure,
-            <br /> there's a perfect blend{" "}
+            <br /> there is a perfect blend{" "}
             <span className="text-red-500 font-bold">waiting for you.</span>
           </p>
         </div>
