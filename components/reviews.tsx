@@ -14,24 +14,33 @@ import {
 export const Reviews = () => {
   return (
     <>
-      <motion.div className="sm:ml-8"
-      initial={{ y: 1000 }}
-      animate={{ y: 0 }}
-      transition={{ ease: "easeIn", duration: 0.5 }}
-      >
+      <motion.div 
+      initial="hidden"
+      whileInView="visible"
+      transition={{ duration: 0.4 }}
+      variants={{
+        visible: { y: 1, scale: 1 },
+        hidden: { y: +100, scale: 1 },
+      }}
+      className="sm:ml-8">
         <h2 className="text-blue-500 font-bold sm:text-[40px] text-[18px] ">
           What Customer Says About Us.
         </h2>
         <div className="sm:w-[300px] sm:h-[15px] w-[150px] h-[10px] bg-red-400 text-center rounded-full"></div>
       </motion.div>
       <div className="mt-8 ml-2 sm:ml-0">
-        <motion.div
-          className="sm:ml-8 sm:flex gap-3"
-          initial={{ y: 1000 }}
-          animate={{ y: 0 }}
-          transition={{ ease: "easeIn", duration: 0.5, }}
-        >
-          <Card className="max-w-[350px] h-[200px] mt-5 shadow-md hover:shadow-2xl cursor-pointer transition ease-in-out delay-150">
+        <motion.div 
+        initial="hidden"
+        whileInView="visible"
+        transition={{ duration: 0.4 }}
+        variants={{
+          visible: { y: 1, scale: 1 },
+          hidden: { y: +100, scale: 1 },
+        }}
+        className="sm:ml-8 sm:flex gap-3">
+          <Card 
+          
+          className="max-w-[350px] h-[200px] mt-5 shadow-md hover:shadow-2xl cursor-pointer transition ease-in-out delay-150">
             <CardHeader className="flex gap-3">
               <Image
                 alt="nextui logo"
@@ -75,7 +84,9 @@ export const Reviews = () => {
             <Divider />
             <CardBody className="">
               <p>
-              Great place to work or catch up with friends. The WiFi is reliable, and the staff is friendly. The hazelnut iced latte is my go-to.
+                Great place to work or catch up with friends. The WiFi is
+                reliable, and the staff is friendly. The hazelnut iced latte is
+                my go-to.
               </p>
             </CardBody>
             <Divider />
@@ -98,7 +109,10 @@ export const Reviews = () => {
             <Divider />
             <CardBody className="">
               <p>
-              Hands down the best coffee in town! The baristas are true artists, and you can taste the quality in every cup. The pastries are also delicious, and I appreciate the variety. Highly recommend!
+                Hands down the best coffee in town! The baristas are true
+                artists, and you can taste the quality in every cup. The
+                pastries are also delicious, and I appreciate the variety.
+                Highly recommend!
               </p>
             </CardBody>
             <Divider />

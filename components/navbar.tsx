@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="lg:ml-[-1200px] ml-[-90px]">
            <Button className="rounded-full bg-orange-950 text-yellow-400 font-bold">
            <Link href = "/menu">
-            Explore Menu
+            Menu
             </Link>
           </Button>
           

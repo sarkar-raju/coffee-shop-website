@@ -12,7 +12,9 @@ export default function ContactPage() {
 
       <div>
         <div className="flex justify-center items-center mt-8">
-          <Image src="/contact.png" width={600} height={600} alt="img" />
+          <Image src="/contact.png" width={600} height={600} alt="img" 
+          className="rounded-lg"
+          />
         </div>
       </div>
       <div className="sm:flex gap-3 sm:justify-center sm:items-center mt-14">

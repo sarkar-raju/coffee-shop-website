@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="bg-red-950 text-white ">
+    <div className="bg-red-950 text-white py-2">
       <div className="text-center">
         <p className="font-bold">
           &#169; <span>2023</span>{" "}

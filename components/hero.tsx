@@ -75,9 +75,13 @@ export const Hero = () => {
     <div className="flex mt-5 text-center max-[638px]:justify-between sm:flex max-[638px]:px-8">
       <motion.div
         className="sm:ml-8 mr-2 "
-        initial={{ x: -1000 }}
-        animate={{ x: 0 }}
-        transition={{ ease: "easeIn", duration: 0.5 }}
+        initial="hidden"
+          whileInView="visible"
+          transition={{ duration: 0.4 }}
+          variants={{
+            visible: { y: 1, scale: 1 },
+            hidden: { y: +100, scale: 1 },
+          }}
       >
         <Button className="bg-red-500 text-white rounded-full" variant="flat">
           <Link href="/ourstory">Learn More &#8594;</Link>
@@ -86,19 +90,17 @@ export const Hero = () => {
 
       <motion.div
         className="sm:ml-8 "
-        initial = "hidden"
+        initial="hidden"
         whileInView="visible"
-        viewport={{ once:true}}
-        transition={{duration:0.3}}
+        transition={{ duration: 0.4 }}
         variants={{
-          visible : {opacity : 1, scale : 1},
-          hidden : { opacity : 0, scale : 1}
+          visible: { y: 1, scale: 1 },
+          hidden: { y: +100, scale: 1 },
         }}
       >
     
           <Button className="bg-blue-600 text-white rounded-full">
           <Link href = "/menu">
-            
             Explore Menu &#8594;
             </Link>
             </Button>
