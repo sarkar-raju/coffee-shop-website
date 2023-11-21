@@ -31,11 +31,11 @@ export default function ContactPage() {
 
           <div className="ml-4 mt-1 text-left text-red-900">
             <p className="flex">
-              <Image src="/phone.svg" width={20} height={20} img="phone" />{" "}
+              <Image src="/phone.svg" width={20} height={20} alt="phone" />{" "}
               Phone :- 1-212-1234567
             </p>
             <p className="flex">
-              <Image src="/email.svg" width={20} height={20} img="phone" />{" "}
+              <Image src="/email.svg" width={20} height={20} alt="email" />{" "}
               Enail :- brew@haven.com
             </p>
           </div>
